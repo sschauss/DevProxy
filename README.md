@@ -12,6 +12,9 @@ e.g.
 	...
 ]`
 
+Dependencies:
+- Node.js
+
 Notes:
 - The path to the proxy file *must* be absolute.
 - Tested with Node.js 4.3.1 LTS.
