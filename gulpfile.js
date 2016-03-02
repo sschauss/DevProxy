@@ -16,7 +16,7 @@ gulp.task('default', function () {
         .src('.')
         .pipe(webserver({
 			host: "0.0.0.0",
-            open: true,
+            open: false,
             proxies: proxies
         }));
 });
