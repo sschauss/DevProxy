@@ -1,6 +1,8 @@
 #1 DEVProxy
 
-Just run `npm i -g git+https://github.com/sschauss/DevProxy.git` and then `devproxy [file]`
+Just run `npm i -g git+https://github.com/sschauss/DevProxy.git` and then `devproxy [file.json]`
+
+e.g. 
 
 `[
 	{
