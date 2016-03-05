@@ -2,10 +2,9 @@
   "name": "devproxy",
   "version": "1.0.0",
   "description": "prevent cors restriction",
-  "main": "gulpfile.js",
+  "main": "main",
   "author": "Simon Schauß",
   "license": "MIT",
-  "main": "main",
   "preferGlobal": "true",
   "bin": {
     "devproxy": "main.js"
@@ -15,9 +14,9 @@
     "url": "https://gitlab.bitzeche.de/s.schauss/devproxy.git"
   },
   "dependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^3.9.1",
     "gulp-webserver": "^0.9.1",
-    "minimist": "^1.1.0"
+    "minimist": "^1.2.0"
   },
   "devDependencies": {}
 }
