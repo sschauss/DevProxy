@@ -1,4 +1,4 @@
-#1 Yet Another Dev Proxy
+Yet Another Dev Proxy
 
 Just run `npm install yadp -g` and then `yadp [file.json]`
 
