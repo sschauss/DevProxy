@@ -8,6 +8,6 @@ if (argv.length == 1) {
     var proxies = require(`${__dirname}/${argv[0]}`);
     app.run(proxies);
 } else {
-    console.log('Usage: devproxy [filename]')
+    console.log('Usage: yadp [filename]')
 }
 

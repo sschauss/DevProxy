@@ -1,6 +1,6 @@
-#1 DEVProxy
+#1 Yet Another Dev Proxy
 
-Just run `npm i -g git+https://github.com/sschauss/DevProxy.git` and then `devproxy [file.json]`
+Just run `npm install yadp -g` and then `yadp [file.json]`
 
 e.g. 
 
@@ -12,9 +12,4 @@ e.g.
 	...
 ]`
 
-Dependencies:
-- Node.js
 
-Notes:
-- The path to the proxy file *must* be absolute.
-- Tested with Node.js 4.3.1 LTS.

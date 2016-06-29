@@ -1,17 +1,17 @@
 {
-  "name": "devproxy",
+  "name": "yadp",
   "version": "1.0.0",
-  "description": "prevent cors restriction",
+  "description": "Yet Another Dev Proxy",
   "main": "main",
   "author": "Simon Schauß",
   "license": "MIT",
-  "preferGlobal": "true",
+  "preferGlobal": true,
   "bin": {
-    "devproxy": "main.js"
+    "yadp": "main.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.bitzeche.de/s.schauss/devproxy.git"
+    "url": "https://github.com/sschauss/DevProxy.git"
   },
   "dependencies": {
     "express": "^4.13.4",
@@ -19,8 +19,5 @@
     "minimist": "^1.2.0"
   },
   "devDependencies": {
-    "http-proxy-middleware": "^0.14.0",
-    "install": "^0.6.1",
-    "pm": "^2.2.6"
   }
 }
