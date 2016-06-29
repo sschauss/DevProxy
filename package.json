@@ -14,9 +14,13 @@
     "url": "https://gitlab.bitzeche.de/s.schauss/devproxy.git"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-webserver": "^0.9.1",
+    "express": "^4.13.4",
+    "http-proxy-middleware": "^0.14.0",
     "minimist": "^1.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "http-proxy-middleware": "^0.14.0",
+    "install": "^0.6.1",
+    "pm": "^2.2.6"
+  }
 }
