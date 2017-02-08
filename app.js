@@ -1,11 +1,12 @@
 const express = require('express');
 const proxy = require('http-proxy-middleware');
 
-var app = express();
-var port = process.env.PORT || 3000
-var registerProxy = (table) => {
-    var middleware = proxy({target: table.target, changeOrigin: true});
-    app.use(table.source, middleware);
+const app = express();
+const port = process.env.PORT || 3000;
+const registerProxy = (table) => {
+    const middleware = proxy(table.source, {target: table.target, changeOrigin: true, ws: table.ws || false});
+    app.use(middleware);
+    app.on('upgrade', middleware.upgrade);
 };
 
 exports.run = (tables) => {

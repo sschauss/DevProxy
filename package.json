@@ -1,6 +1,6 @@
 {
   "name": "yadp",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Yet Another Dev Proxy",
   "main": "main",
   "author": "Simon Schauß",
@@ -14,8 +14,8 @@
     "url": "https://github.com/sschauss/yadp.git"
   },
   "dependencies": {
-    "express": "^4.13.4",
-    "http-proxy-middleware": "^0.14.0",
+    "express": "^4.14.1",
+    "http-proxy-middleware": "^0.17.3",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
