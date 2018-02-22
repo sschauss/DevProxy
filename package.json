@@ -1,6 +1,6 @@
 {
   "name": "yadp",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Yet Another Dev Proxy",
   "main": "main",
   "author": "Simon Schauß",
@@ -18,6 +18,5 @@
     "http-proxy-middleware": "^0.17.3",
     "minimist": "^1.2.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
